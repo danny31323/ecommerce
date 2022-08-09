@@ -24,7 +24,7 @@ class MainScreen extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                const NavigationWidget(),
+                NavigationWidget(),
                 _TitleCategory(),
                 SelectCategoryWidget(),
                 SearchWidget(),
