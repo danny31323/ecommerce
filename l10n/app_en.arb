@@ -1,3 +1,8 @@
 {
-    "caterogy": "Select Category"
+    "caterogy": "Select Category",
+    "searc": "Search",   
+    "seemore" : "See more",
+    "sales": "How sales",
+    "bestseller": "Best Seller",
+    "viewall": "view all"
 }

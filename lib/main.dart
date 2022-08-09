@@ -1,3 +1,4 @@
+import 'package:e_commerce/components/bottom_navigation_bar/botton_navigation_bar_widget.dart';
 import 'package:e_commerce/screens/main_screen/main_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -34,7 +35,7 @@ class _MyAppState extends State<MyApp> {
       supportedLocales: Language.supportedLocales,
       initialRoute: 'main',
       routes: {
-        'main': (context) => MainScreen(),
+        'main': (context) => BottomNavigationBarWidget(),
       },
     );
   }
